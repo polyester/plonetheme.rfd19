@@ -57,6 +57,10 @@ h1,h2,h3{font-family: "lovelo"};
     @local:         ~"local('Lovelo Line Bold'),";
 );
 
+#content-core a  {
+    border-bottom: none;
+    text-decoration: underline;
+}
 .mce-edit-focus {
     color: #000;
 }
@@ -79,7 +83,7 @@ form#searchGadget_form.pat-livesearch{
     .livesearch-results{
         display:none;
         position: absolute;
-        background-color: @2019-lightorange;
+        background-color: @2019-darkgrey;
         z-index: 100;
 
         border-right: 1px solid #64bee8;
@@ -154,6 +158,17 @@ form#searchGadget_form.pat-livesearch{
 color: white;
 }
 .portlet > :first-child {border-radius: 0px}
+
+.subsection-compact table{
+    background-color: transparent;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+}
+.subsection-compact td[colspan]{
+    background-color: #E9500E;
+}
+
 table {
     border: none;
 }
